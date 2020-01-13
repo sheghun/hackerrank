@@ -38,8 +38,8 @@ func countingValleys(n int32, s string) int32 {
 			// Check if step level is zero and is not first iteration
 			if stepLevel == 0 && i != 0 {
 				// Check if the last step is not a downhill
-					// It means it's a valley increment valley
-					valley++
+				// It means it's a valley increment valley
+				valley++
 			}
 			continue
 		}
