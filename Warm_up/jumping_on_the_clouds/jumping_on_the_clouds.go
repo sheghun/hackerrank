@@ -25,7 +25,6 @@ func jumpingOnClouds(c []int32) int32 {
 			jumps++
 		}
 
-
 		// Check to see if the next two clouds are safe then jump one
 		if i+1 != len(c) && i+2 != len(c) {
 			nextCloud := c[i+1]
